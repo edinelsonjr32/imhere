@@ -1,6 +1,6 @@
 import { Text, View } from "react-native";
 import { styles } from "./styles";
-export default function Home() {
+export function Home() {
   /**
    * Função inicial do nosso aplicativo
    * Interface é componente: elemento visual
