@@ -41,6 +41,11 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         marginTop: 36,
         marginBottom: 42
+    },
+    listaVazia:{
+      color: '#fff',
+      fontSize: 14,
+      textAlign: 'center'
     }
   });
   
