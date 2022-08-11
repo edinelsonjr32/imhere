@@ -1,3 +1,4 @@
+import { StatusBar } from 'react-native';
 import {Home} from './src/screens/Home';
 export default function App() {
   /**
@@ -7,7 +8,16 @@ export default function App() {
    * Quando coloco default eu não preciso colocar entre chaves 
    */
   return (
-    <Home/>
+    <>
+
+      <StatusBar 
+        barStyle="light-content"
+        backgroundColor="transparent"
+        translucent
+      />
+      <Home/>
+    </>
+    
   );
 }
 
