@@ -20,6 +20,8 @@ export const styles = StyleSheet.create({
         color: '#fdfcfe',
         padding: 16,
         fontSize: 16,
+        flex: 1,
+        marginRight: 12,
     },
     buttonText:{
         color: '#fff',
@@ -32,6 +34,12 @@ export const styles = StyleSheet.create({
         backgroundColor: '#31cf67',
         alignItems: 'center',
         justifyContent: 'center'
+    },
+    formulario:{
+        width:'100%',
+        flexDirection: 'row',
+        marginTop: 36,
+        marginBottom: 42
     }
   });
   

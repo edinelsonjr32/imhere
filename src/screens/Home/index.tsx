@@ -4,7 +4,6 @@ export function Home() {
   /**
    * Função inicial do nosso aplicativo
    * Interface é componente: elemento visual
-   *
    * Densidade de Pixels:
    *
    *  */
@@ -17,15 +16,17 @@ export function Home() {
       <Text style={styles.titulo}>Nome do Evento</Text>
       <Text style={styles.eventDate}>11/08/1994</Text>
 
-      <TextInput
-        style={styles.input}
-        placeholder="Digite o nome do participante"
-        placeholderTextColor="#6b6b6b"
-      />
+      <View style={styles.formulario}>
+        <TextInput
+          style={styles.input}
+          placeholder="Digite o nome do participante"
+          placeholderTextColor="#6b6b6b"
+        />
 
-      <TouchableOpacity style={styles.button} onPress={handleParticipantAdd}>
-        <Text style={styles.buttonText}>+</Text>
-      </TouchableOpacity>
+        <TouchableOpacity style={styles.button} onPress={handleParticipantAdd}>
+          <Text style={styles.buttonText}>+</Text>
+        </TouchableOpacity>
+      </View>
     </View>
   );
 }
