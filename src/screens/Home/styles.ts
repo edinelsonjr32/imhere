@@ -6,13 +6,14 @@ export const styles = StyleSheet.create({
       padding: 30,
     },
     titulo: {
+      marginTop: 10,
       fontSize: 23,
-      color: "#fff",
+      color: "#fef1fc",
     },
     eventDate: {
       fontStyle: "italic",
       fontSize: 15,
-      color: '#f1f2f3'
+      color: 'gray'
     },
     input:{
         backgroundColor: "#1f1e25",
