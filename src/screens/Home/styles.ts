@@ -13,6 +13,13 @@ export const styles = StyleSheet.create({
       fontStyle: "italic",
       fontSize: 15,
       color: '#f1f2f3'
+    },
+    input:{
+        backgroundColor: "#1f1e25",
+        borderRadius: 5,
+        color: '#fdfcfe',
+        padding: 16,
+        fontSize: 16,
     }
   });
   
